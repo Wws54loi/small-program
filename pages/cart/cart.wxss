@@ -1,0 +1,37 @@
+/* pages/cart/cart.wxss */
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150rpx;
+  border-bottom: 4rpx solid rgb(255, 236, 234) 
+}
+.addAddress{
+    width: 400rpx;
+    height: 80rpx;
+    border: 4rpx solid rgb(120, 178, 121);
+    color: rgb(120, 178, 121);
+    line-height: 80rpx;
+    font-size: 34rpx;
+    text-align: center;
+    font-weight: 500;
+}
+.shopCar_title{
+  font-size: 38rpx;
+   font-weight: 500;
+  padding: 15rpx;
+  border-bottom: 4rpx solid rgb(180, 119, 122)
+}
+.content{
+  display: flex;
+  align-items: center;
+}
+.img{
+  flex: 2;
+}
+.checkbox{
+  flex: 1
+}
+.goodsInfo{
+  flex: 4;
+}

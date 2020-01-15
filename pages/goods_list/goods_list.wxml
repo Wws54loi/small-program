@@ -1,0 +1,14 @@
+<searchInput></searchInput>
+<tabs tabs="{{tabs}}"  bindtabsItemChange="handletabsItemChange">
+	<block wx:if="{{tabs[0].isActive}}">
+		 <navigator class="content_item" wx:for="{{goodsList}}" wx:key="cat_id" url="../goods_detail/goods_detail?goodsId={{item.goods_id}}">
+			 <view class="left"><image mode="widthFix" src="{{item.goods_small_logo}}"></image></view>
+			 <view class="right">
+				 <view class="right_title">{{item.goods_name}}</view>
+				 <view class="price">${{item.goods_price}}</view>
+			 </view>
+		</navigator> 
+	</block>
+	<block wx:if="{{tabs[1].isActive}}">1</block>
+	<block wx:if="{{tabs[2].isActive}}">1</block>
+</tabs>

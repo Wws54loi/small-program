@@ -1,0 +1,19 @@
+<view class="header">
+    <view class="addAddress" bindtap="getAddress">添加收货地址</view>
+    <button bindtap="openSetting">打开设置页</button>
+</view>
+<view class="shopCar">
+      <view class="shopCar_title">购物车</view>
+      <view class="content">
+      <checkbox class="checkbox"></checkbox>
+      <view class="img"></view>
+      <view class="goodsInfo">
+      <view class="goodsInfo_title">电信 是滴哦封你为封你为哦感觉我欸给那位姑娘</view>
+      <view class="goodsInfo_price_num">
+      <view class="price">$13999</view>
+      <view class="num">4</view>
+      </view>
+      </view>
+      </view>
+</view>
+<view class="footer"></view>

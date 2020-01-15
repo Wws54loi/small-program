@@ -1,0 +1,49 @@
+/* pages/category/category.wxss */
+.container{
+  display: flex;
+  .left{
+    flex: 2;
+    height:calc(100vh - 90rpx);
+    view{
+      position: relative;
+      height: 80rpx;
+      line-height: 80rpx;
+      text-align: center;
+      background-color: #F4F4F4;
+      border-bottom: 1px solid #CCCCCC;
+    }
+  }
+  .right{
+    flex: 5;
+   height:calc(100vh - 90rpx); 
+  }
+}
+.isActive{
+  color: red;
+}
+.isActive::before{
+  content: "";
+  width: 2rpx;
+  height: 50rpx;
+  top: 15rpx;
+  left: 0;
+  position: absolute;
+  background-color: red;
+}
+ .title{
+      text-align: center;
+    }
+.goods_list{
+  display: flex;
+  flex-wrap: wrap;
+navigator{
+  text-align: center;
+    width: 33.33%;
+    image{
+      width: 100rpx;
+    }
+    view{
+      font-size: 24rpx;
+    }
+  }
+}

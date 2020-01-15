@@ -1,0 +1,3 @@
+<view class="headersearch">
+  <navigator url="../../pages/search/search" class="navUrl"><text class="iconfont icon-sousuo .searchText">搜索</text></navigator>
+</view>

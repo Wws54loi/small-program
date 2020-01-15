@@ -1,0 +1,30 @@
+<!-- 搜索功能实现 -->
+<search></search>
+<!-- 轮播图实现 -->
+<swiper autoplay circular>
+  <swiper-item wx:for="{{swiperList}}" wx:key="goods_id">
+    <image src="{{item.image_src}}" mode="widthFix"></image>
+  </swiper-item>
+</swiper>
+<!-- 分类导航实现 -->
+<view class="navcate">
+  <view class="navcate_item" wx:for="{{navList}}" wx:key="name">
+    <image src="{{item.image_src}}" mode="widthFix"></image>
+  </view>
+</view>
+<!-- 楼层实现 -->
+<view class="floor"
+wx:for="{{floorList}}"
+wx:key="floor_title.name"
+>
+  <view class="floorHeader"><image src="{{item.floor_title.image_src}}" mode="widthFix"></image>   </view>
+  <view class="floorBody">
+    <view class="leftBigOne"><image src="{{item.product_list[0].image_src}}" mode="widthFix"></image> </view>
+    <view class="four">
+      <view><image src="{{item.product_list[1].image_src}}"></image></view>
+      <view><image src="{{item.product_list[2].image_src}}"></image></view>
+      <view><image src="{{item.product_list[3].image_src}}"></image></view>
+      <view><image src="{{item.product_list[4].image_src}}"></image></view>
+    </view>
+  </view>
+</view>

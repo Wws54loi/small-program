@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/category/category",
+    "pages/index/index",
+    "pages/goods_list/goods_list",
+    "pages/goods_detail/goods_detail",
+    "pages/cart/cart",
+    "pages/collect/collect",
+    "pages/order/order",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/feedback/feedback",
+    "pages/login/login",
+    "pages/auth/auth",
+    "pages/pay/pay"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EB4450",
+    "navigationBarTitleText": "购物项目",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./imgs/icons/home.png",
+        "selectedIconPath": "./imgs/icons/home-o.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "./imgs/icons/category.png",
+        "selectedIconPath": "./imgs/icons/category-o.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "./imgs/icons/cart.png",
+        "selectedIconPath": "./imgs/icons/cart-o.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "./imgs/icons/my.png",
+        "selectedIconPath": "./imgs/icons/my-o.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap62.json"
+}
