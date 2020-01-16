@@ -1,2 +1,10 @@
-<!--pages/user/user.wxml-->
-<text>pages/user/user.wxml</text>
+<view class="bg_img">
+  <image src="{{userInfo.avatarUrl}}" class="bigBg"></image>
+</view>
+<view class="sm_img" wx:if="{{userInfo.nickName}}">
+  <image src="{{userInfo.avatarUrl}}" class="smBg"></image>
+  <text>\n{{userInfo.nickName}}</text>
+</view>
+<view class="userLogin"  wx:else >
+  <navigator url="/pages/login/login">登录</navigator>
+</view>

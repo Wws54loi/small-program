@@ -1,2 +1,1 @@
-<!--pages/login/login.wxml-->
-<text>pages/login/login.wxml</text>
+    <button class="userLogin" open-type="getUserInfo" bindgetuserinfo="getuserinfo">登录</button>

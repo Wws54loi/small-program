@@ -1,2 +1,32 @@
-<!--pages/pay/pay.wxml-->
-<text>pages/pay/pay.wxml</text>
+<view class="header">
+ <view>
+   <view class="name_phonenum">
+    <view class="name">{{address.userName}}</view>
+    <view class="phonenum"> {{address.telNumber}}</view>
+  </view>
+  <view class="address"> {{address.provinceName}} {{address.cityName}} {{address.countyName}}{{address.detailInfo}}</view>
+</view></view>
+<view class="shopCar">
+  <view class="shopCar_title">购物车</view>
+  <view class="goodsItem" wx:for="{{cart}}" wx:key="goods_id">
+    <view class="img">
+      <image src="{{item.goods_small_logo}}" mode="widthFix" class="img_small"></image>
+    </view>
+    <view class="goodsInfo">
+      <view class="goodsInfo_title">{{item.goods_name}}</view>
+      <view class="goodsInfo_price_num">
+        <view class="price">${{item.goods_price}}</view>
+        <view class="num">x{{item.num}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="footer">
+  <view class="left">
+    <view class="totalPrice">
+      <view>合计：<text class="total_price">￥{{totalPrice}}</text></view>
+      <view class="includes">包含运费</view>
+    </view>
+    <view class="check_btn" bindtap="toPay">结算({{totalNum}})</view>
+  </view>
+</view>

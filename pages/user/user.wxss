@@ -1,1 +1,37 @@
-/* pages/user/user.wxss */
+.bg_img{
+  height: 45vh;
+  background-color: rgb(249, 84, 78)
+}
+.bigBg{
+    height: 45vh;
+    width: 100%;
+    filter: blur(10rpx)
+}
+.sm_img{
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+}
+.smBg{
+  width: 150rpx;
+  height: 150rpx;
+margin-bottom: 80rpx;
+border-radius: 50%;
+}
+.userLogin {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 50%;
+  transform: translateX(-50%);
+  height: 80rpx;
+  border: 4rpx solid rgb(120, 178, 121);
+  color: rgb(120, 178, 121);
+  line-height: 80rpx;
+  font-size: 34rpx;
+  text-align: center;
+  font-weight: 500;
+}

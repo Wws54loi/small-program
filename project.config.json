@@ -24,7 +24,7 @@
 		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.8",
+	"libVersion": "2.10.0",
 	"appid": "wxece3b847d10f1e29",
 	"projectname": "%E9%A1%B9%E7%9B%AE1",
 	"simulatorType": "wechat",
@@ -71,6 +71,28 @@
 					"id": -1,
 					"name": "pages/cart/cart",
 					"pathName": "pages/cart/cart",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "pages/login/login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/pay/pay",
+					"pathName": "pages/pay/pay",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/user/user",
+					"pathName": "pages/user/user",
+					"query": "",
 					"scene": null
 				}
 			]
